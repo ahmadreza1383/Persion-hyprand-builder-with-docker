@@ -1,0 +1,13 @@
+services:
+  hyprland_build:
+    build:
+      dockerfile: Dockerfile
+    container_name: hyprland_build
+    image:  hyprland_build
+    tty: true
+    stdin_open: true
+    volumes:
+      - "./build:/build"
+      - "./cache/apt:/var/cache/apt/archives"
+
+

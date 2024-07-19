@@ -1,0 +1,15 @@
+
+Types: deb
+URIs: http://debian.hostiran.ir/debian
+Suites: bookworm bookworm-updates
+Components: main
+
+Types: deb
+URIs: http://mirror.aminidc.com/debian
+Suites: bookworm bookworm-updates
+Components: main
+
+Types: deb
+URIs: http://archive.debian.petiak.ir/debian
+Suites: bookworm bookworm-updates
+Components: main
